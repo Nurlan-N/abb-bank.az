@@ -73,10 +73,10 @@ header .header_top{
 }
 @media (max-width:576px) {
     .container{
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
-    .header_top .left{
-        display: none;
+    .header_top{
+        width: 100%;
     }
     .header_bottom{
         max-width: 576px;
@@ -97,17 +97,15 @@ header .header_top{
     .header_bottom .online_bank{
         width: 10%;
     }
-    .header_top .right{
-        margin-left: 50%;
-    }
-    .header_top{
-        position: relative;
-    }
     .header_bottom .logo_menu{
-        position: absolute;
-        top: 4%;
-        left: -30%;
+        display: none;
     }
     
+    
+}
+@media (min-width:576px) {
+    .header_top .up{
+        display: none;
+    }
     
 }
